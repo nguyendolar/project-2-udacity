@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "ba66cfaf-e8e7-4e18-9062-9f3117cb86c1",
+		"name": "project2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16606636"
+	},
+	"item": [
+		{
+			"name": "http://nguyennc6-project2-dev.us-west-2.elasticbeanstalk.com/filteredimage?image_url=http://1.bp.blogspot.com/-lN6MCgn7em8/UKHsk9kn3GI/AAAAAAAA7U8/DiuCzQ_6DMY/s1600/anh-cho-con+(8).jpg",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIiLCJpYXQiOjE2OTYxNDU0NjR9.0Ggbp8AzfrdbHDjZy7YuwB1nmsr4I39RLI4dAZ82e6Y",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://nguyennc6-project2-dev.us-west-2.elasticbeanstalk.com/filteredimage?image_url=http://1.bp.blogspot.com/-lN6MCgn7em8/UKHsk9kn3GI/AAAAAAAA7U8/DiuCzQ_6DMY/s1600/anh-cho-con+(8).jpg",
+					"protocol": "http",
+					"host": [
+						"nguyennc6-project2-dev",
+						"us-west-2",
+						"elasticbeanstalk",
+						"com"
+					],
+					"path": [
+						"filteredimage"
+					],
+					"query": [
+						{
+							"key": "image_url",
+							"value": "http://1.bp.blogspot.com/-lN6MCgn7em8/UKHsk9kn3GI/AAAAAAAA7U8/DiuCzQ_6DMY/s1600/anh-cho-con+(8).jpg"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
